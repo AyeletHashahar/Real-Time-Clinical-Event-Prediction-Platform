@@ -1,0 +1,30 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+
+  /* .highcharts-root {
+    font-family: "Courier New", monospace;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+Apply the font globally to the chart
+.highcharts-root {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Apply the font to specific chart elements */
+.highcharts-title
+/* .highcharts-subtitle,  */
+/* .highcharts-axis-title */
+/* .highcharts-axis-labels, 
+.highcharts-data-label text,  */
+/* .highcharts-legend-item text { */
+ { font-family:  "Quicksand", sans-serif;
+}
+
+/* Customize button fonts */
+.highcharts-button text {
+  font-family:  "Quicksand", sans-serif;   
+  font-weight: bold;
+}
