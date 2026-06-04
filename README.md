@@ -1,129 +1,197 @@
 # Real-Time Clinical Event Prediction Platform
 
-## Overview
+### M.Sc. Thesis Project | Ben-Gurion University | Complex Data Analytics Lab (CDALab)
 
 A real-time machine learning platform for continuous prediction of clinical events in Intensive Care Unit (ICU) patients.
 
-The system combines temporal abstraction, probabilistic modeling, temporal pattern mining and real-time prediction to support clinical decision-making.
+The project was developed as part of an M.Sc. thesis in Information Systems Engineering and focuses on transforming streaming clinical data into actionable predictions using temporal abstraction, temporal pattern mining (TIRPs), and probabilistic modeling.
 
-Developed as part of an M.Sc. thesis at Ben-Gurion University under the Complex Data Analytics Lab (CDALab).
-
----
-
-## Key Features
-
-- Real-time clinical event prediction
-- Continuous temporal abstraction
-- Temporal pattern (TIRP) detection
-- Probabilistic risk estimation
-- Interactive clinical dashboard
-- Historical patient investigation tools
-- End-to-end ML pipeline
+The system provides clinicians with real-time risk estimation, pattern explainability, and interactive patient investigation capabilities.
 
 ---
 
-## System Architecture
+# Motivation
 
-![Architecture](docs/images/architecture.png)
+Clinical deterioration events often develop gradually over time.
 
-The platform consists of:
+Traditional predictive models operate in batch mode and repeatedly analyze the entire patient history whenever new measurements arrive.
 
-1. Data ingestion layer
-2. Temporal abstraction engine
-3. Pattern detection module
-4. Prediction engine
-5. Flask backend services
-6. React-based clinical dashboard
+This project introduces a continuous prediction framework that incrementally updates patient representations and predictions as new data becomes available, enabling real-time clinical decision support.
 
 ---
 
-## Dashboard
+# System Architecture
 
-![Dashboard](docs/images/dashboard.png)
+<p align="center">
+  <img src="docs/images/architecture.png" width="950">
+</p>
 
-Interactive dashboard presenting:
+The platform continuously processes incoming patient measurements through several stages:
 
-- Patient information
-- Event probabilities
-- Time-to-event estimation
-- Temporal pattern visualization
+1. Clinical Data Acquisition
+2. Continuous Temporal Abstraction
+3. Continuous TIRP Detection
+4. Temporal Pattern Evaluation
+5. Probabilistic Prediction
+6. Interactive Visualization
 
----
-
-## Real-Time Prediction
-
-![Prediction](docs/images/realtime-prediction.png)
-
-Continuous prediction updates are generated as new patient measurements arrive.
-
-The system performs:
-
-- temporal abstraction
-- TIRP detection
-- probabilistic prediction
-
-without requiring full recomputation of historical data.
+The prediction process is updated at every timestamp without reprocessing the entire patient history.
 
 ---
 
-## Pattern Detection
+# Main Dashboard
 
-![Patterns](docs/images/patterns.png)
+<p align="center">
+  <img src="docs/images/dashboard.png" width="1000">
+</p>
 
-Detected temporal patterns are continuously monitored and incorporated into prediction scores.
+The dashboard provides:
+
+- Real-time event probabilities
+- Temporal pattern monitoring
+- Event timelines
+- Patient-specific risk assessment
+- Continuous prediction updates
+
+The interface was designed to support clinical decision making while maintaining transparency regarding the patterns contributing to predictions.
 
 ---
 
-## Technology Stack
+# Pattern Exploration
 
-### Backend
+<p align="center">
+  <img src="docs/images/patterns.png" width="1000">
+</p>
+
+Users can explore:
+
+- Detected temporal patterns (TIRPs)
+- Pattern importance
+- Pattern probabilities
+- Pattern evolution over time
+
+This functionality provides explainability and allows clinicians to understand the factors influencing predictions.
+
+---
+
+# Pattern Deep Dive
+
+<p align="center">
+  <img src="docs/images/pattern-details.png" width="1000">
+</p>
+
+The platform enables investigation of:
+
+- Individual temporal patterns
+- Underlying state intervals
+- Raw measurements
+- Temporal abstractions
+- Predictor-specific contributions
+
+This creates a direct connection between the machine learning model and the original patient data.
+
+---
+
+# Core Research Contributions
+
+## Continuous Temporal Abstraction
+
+Developed a real-time temporal abstraction mechanism that incrementally transforms streaming measurements into symbolic interval representations.
+
+## Continuous TIRP Detection
+
+Implemented continuous temporal pattern detection capable of updating discovered patterns as new observations arrive.
+
+## Real-Time Event Prediction
+
+Designed a prediction framework that continuously estimates event risk without requiring full historical recomputation.
+
+## Clinical Decision Support
+
+Integrated prediction results into an interactive dashboard for healthcare professionals.
+
+---
+
+# Technology Stack
+
+## Backend
 
 - Python
 - Flask
+- REST APIs
 - Pandas
 - NumPy
 
-### Machine Learning
+## Machine Learning & Analytics
 
 - Probabilistic Modeling
-- Temporal Pattern Mining
-- Real-Time Event Prediction
+- Temporal Pattern Mining (TIRPs)
 - Time-Series Analysis
+- Continuous Prediction
+- Healthcare Analytics
 
-### Frontend
+## Frontend
 
 - React
 - JavaScript
-- REST APIs
+- Interactive Data Visualization
 
 ---
 
-## Research Context
+# Repository Structure
+
+```text
+backend/
+│
+├── api/
+├── services/
+├── models/
+├── prediction/
+└── utilities/
+
+frontend/
+│
+├── src/
+├── components/
+├── services/
+└── assets/
+
+docs/
+│
+└── images/
+
+README.md
+```
+
+# Research Context
 
 This project was developed as part of an M.Sc. thesis in Information Systems Engineering at Ben-Gurion University.
 
-Research focus:
+Research areas:
 
-- Continuous Event Prediction
+- Machine Learning
 - Temporal Data Mining
 - Healthcare Analytics
+- Real-Time Prediction
 - Clinical Decision Support Systems
 
 ---
 
-## Repository Structure
+# Future Directions
 
-```text
-backend/
-frontend/
-docs/
-```
+- Advanced uncertainty modeling
+- Multi-event prediction
+- Explainable AI enhancements
+- Additional clinical datasets
+- Large-scale deployment evaluation
 
 ---
 
-## Future Work
+# Author
 
-- Additional clinical datasets
-- Advanced uncertainty modeling
-- Explainable AI modules
-- Multi-event prediction support
+**Ayelet Hashahar Cohen**
+
+M.Sc. Student, Information Systems Engineering  
+Ben-Gurion University of the Negev
+
+Complex Data Analytics Lab (CDALab)
