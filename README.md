@@ -60,7 +60,7 @@ The interface was designed to support clinical decision making while maintaining
 # Pattern Exploration
 
 <p align="center">
-  <img src="docs/images/patterns.png" width="1000">
+  <img src="docs/images/pattern-explorer.png" width="1000">
 </p>
 
 Users can explore:
