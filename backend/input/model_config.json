@@ -1,0 +1,59 @@
+{
+  "ahe_small": {
+    "project_name": "input/ahe_small",
+    "raw_data_path": "input/ahe_small/small_ahe.csv",
+    "states_path": "input/ahe_small",
+    "events_path": "input/ahe_small/events_dict.json",
+    "patterns_path": "input/ahe_small/patterns_dict.json",
+    "demographic_path": "input/ahe_small/small_ahe_demographic.csv",
+    "models_path": "input/ahe_small",
+    "historical_path": "input/ahe_small/historical_data/entity_historical_data_",
+    "weights_file": "input/ahe_small/train_data/tirp_selection_scores.csv",
+    "Variable_Explanations": "input/ahe_small/train_data/Variable_Explanations.csv",
+    "train_data": "input/ahe_small/train_data/train.csv",
+    "important_patterns": "input/ahe_small/important_patterns.json"
+  },
+  "AKI": {
+    "project_name": "input/AKI_st1_300525",
+    "raw_data_path": "input/AKI_st1_300525/final_formatted_data_stg1.csv",
+    "states_path": "input/AKI_st1_300525",
+    "events_path": "input/AKI_st1_300525/events_dict.json",
+    "patterns_path": "input/AKI_st1_300525/patterns_dict.json",
+    "demographic_path": "input/AKI_st1_300525/mimic_demographic_stg1.csv",
+    "models_path": "input/AKI_st1_300525",
+    "historical_path": "input/AKI_st1_300525/historical_data/entity_historical_data_",
+    "weights_file": "input/AKI_st1_300525/train_data/tirp_selection_scores.csv",
+    "Variable_Explanations": "input/AKI_st1_300525/train_data/Variable_Explanations.csv",
+    "train_data": "input/AKI_st1_300525/train_data/train.csv",
+    "important_patterns": "input/AKI_st1_300525/important_patterns.json"
+  },
+  "LCOS_onset": {
+    "project_name": "input/LCOS_onset",
+    "raw_data_path": "input/LCOS_onset/icu.csv",
+    "states_path": "input/LCOS_onset",
+    "events_path": "input/LCOS_onset/events_dict.json",
+    "patterns_path": "input/LCOS_onset/patterns_dict.json",
+    "demographic_path": "input/LCOS_onset/icu_demographic.csv",
+    "models_path": "input/LCOS_onset",
+    "historical_path": "input/LCOS_onset/historical_data/entity_historical_data_",
+    "weights_file": "input/LCOS_onset/train_data/tirp_selection_scores.csv",
+    "Variable_Explanations": "input/LCOS_onset/train_data/Variable_Explanations.csv",
+    "train_data": "input/LCOS_onset/train_data/train.csv",
+    "important_patterns": "input/LCOS_onset/important_patterns.json"
+  },
+  "Falls": {
+    "project_name": "input/Falls",
+    "raw_data_path": "input/Falls/prop-data.csv",
+    "states_path": "input/Falls",
+    "events_path": "input/Falls/events_dict.json",
+    "patterns_path": "input/Falls/patterns_dict.json",
+    "demographic_path": "input/Falls/falls_demographic.csv",
+    "models_path": "input/Falls",
+    "historical_path": "input/Falls/historical_data/entity_historical_data_",
+    "weights_file": "input/Falls/train_data/tirp_selection_scores.csv",
+    "Variable_Explanations": "input/Falls/train_data/Variable_Explanations.csv",
+    "train_data": "input/Falls/train_data/train.csv",
+    "important_patterns": "input/Falls/important_patterns.json"
+  }
+}
+

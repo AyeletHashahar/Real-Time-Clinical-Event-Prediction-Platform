@@ -1,0 +1,11 @@
+TemporalPropertyID,Label,FullName,Type,ScientificExplanation,LowNormalBound,HighNormalBound,LowestBound,HighestBound
+1,ABPm,Mean Arterial Blood Pressure,Vital Signs,"Average arterial pressure during a single cardiac cycle; reflects tissue perfusion pressure.",70,100,40,160
+2,CVD,Central Venous Pressure,Hemodynamics,"Pressure in the thoracic vena cava near the right atrium; estimates right-ventricular preload and overall fluid status.",2,8,-2,25
+3,FiO2,Fraction Inspired Oxygen,Respiratory,"Percentage of oxygen in the delivered gas mixture; determines alveolar O₂ availability.",21,50,21,100
+4,Hf,Heart Rate,Vital Signs,"Beats per minute; mirrors autonomic tone, cardiac output, and physiologic stress.",60,100,20,250
+5,Mpeep,Positive End-Expiratory Pressure,Respiratory,"Baseline airway pressure applied by the ventilator at end-expiration; prevents alveolar collapse and improves oxygenation.",5,10,0,30
+6,Temp,Body Temperature,Vital Signs,"Core body temperature in °C; key for detecting fever, infection, or hypothermia.",36.1,37.5,28,42
+7,BE,Base Excess,Blood Gas,"Calculated surplus or deficit of buffer base in blood; a primary indicator of metabolic acid–base disorders.",-3,3,-30,30
+8,CI,Cardiac Index,Hemodynamics,"Cardiac output normalised to body-surface area; gauges adequacy of tissue perfusion.",2.5,4.0,1.0,8.0
+9,Glucose,Blood Glucose,Lab Chemistry,"Serum glucose concentration; vital for energy metabolism and marker of metabolic control.",70,140,20,600
+10,CKMB,Creatine Kinase-MB,Lab Chemistry,"Cardiac-specific isoenzyme released after myocardial injury; aids diagnosis of peri-operative infarction.",0,5,0,300

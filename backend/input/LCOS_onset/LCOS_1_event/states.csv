@@ -1,0 +1,29 @@
+StateID,TemporalPropertyID,Label,BinID,BinLabel,BinLow,BinHigh,Type
+1,1,ABPm,1,Low,-inf,60,Vital Signs
+2,1,ABPm,2,Medium,60,90,Vital Signs
+3,1,ABPm,3,High,90,inf,Vital Signs
+4,2,CVD,1,Low,-inf,5,Vital Signs
+5,2,CVD,2,Medium,5,17,Vital Signs
+6,2,CVD,3,High,17,inf,Vital Signs
+7,3,FiO2,1,Low,-inf,41,Respiratory
+8,3,FiO2,2,Medium,41,60,Respiratory
+9,3,FiO2,3,High,60,inf,Respiratory
+10,4,Hf,1,Low,-inf,60,Vital Signs
+11,4,Hf,2,Medium,60,110,Vital Signs
+12,4,Hf,3,High,110,inf,Vital Signs
+13,6,Temp,1,Low,-inf,35,Vital Signs
+14,6,Temp,2,Medium,35,38.5,Vital Signs
+15,6,Temp,3,High,38.5,inf,Vital Signs
+16,7,BE,1,0,-inf,-6,Blood Gas
+17,7,BE,2,1,-6,-3,Blood Gas
+18,7,BE,3,2,-3,inf,Blood Gas
+19,9,Glucose,1,Low,-inf,2.5,Chemistry
+20,9,Glucose,2,Medium,2.5,10,Chemistry
+21,9,Glucose,3,High,10,inf,Chemistry
+22,10,CKMB,1,0,-inf,25,Chemistry
+23,10,CKMB,2,1,25,50,Chemistry
+24,10,CKMB,3,2,50,inf,Chemistry
+25,5,Mpeep,1,0,-inf,10,Respiratory
+26,5,Mpeep,2,1,10,inf,Respiratory
+27,8,CI,1,0,-inf,2.5,Hemodynamics
+28,8,CI,2,1,2.5,inf,Hemodynamics

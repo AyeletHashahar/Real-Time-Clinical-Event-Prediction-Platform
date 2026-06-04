@@ -1,0 +1,33 @@
+TemporalPropertyID,Label,FullName,Type,ScientificExplanation,LowNormalBound,HighNormalBound,LowestBound,HighestBound
+47,wt,weight_measurement,"measurement,Body weight. Interpreted together with height via BMI; no single adult 'normal range'.",0,0,32,105
+48,spo2,blood_o2_measurement,measurement,"Peripheral oxygen saturation (SpO2), percent of hemoglobin bound with O2 measured by pulse oximetry.",95,100,0,100
+49,glu,blood_sugar_measurement,measurement,"Blood glucose concentration. Bounds below assume adult fasting, measured in mg/dL.",70,99,0,25
+50,hr,pulse_measurement,measurement,"Resting heart rate in beats per minute; reflects autonomic cardiac activity.",60,100,35,125
+51,rr,respiration_measurement,measurement,"Resting respiratory rate in breaths per minute; reflects ventilatory drive and metabolic demand.",12,20,15,75
+52,temp,temperature_measurement,measurement,"Core body temperature in °C (commonly oral/tympanic).",36.1,37.2,30,40
+53,ht,Hieght,measurement,"Body height (cm or m). No universal adult 'normal range'.",0,0,0,2
+54,mr_ro,medical_routin_regular_observed,action,"Routine medical note: regular status observed/monitored; no intervention performed.",0,0,0,35
+55,mr_so,medical_routin_special_observed,action,"Routine medical note: special status observed/monitored; no intervention performed.",0,0,0,8
+56,mr_ri,medical_routin_regular_intervene,action,"Routine medical note: regular status with intervention performed.",0,0,0,30
+57,mr_ui,medical_routin_uncertain_intervene,action,"Routine medical note: uncertain status with intervention performed.",0,0,0,15
+58,mr_si,medical_routin_special_intervene,action,"Routine medical note: special status with intervention performed.",0,0,0,15
+59,mu_spec,medical_uncertain_special,action,"Medical event flagged as 'special' with uncertain classification.",0,0,0,15
+60,mus_obs,medical_urgent_special_observed,action,"Urgent/special medical event monitored/observed (no intervention documented).",0,0,0,15
+61,mus_int,medical_urgent_special_intervene,action,"Urgent/special medical event with intervention performed.",0,0,0,15
+62,fld,Fluid,action,"Hydration/fluid status or intake (categorical/quantitative depending on the system).",0,0,0,35
+63,food,Food,action,"Food intake or nutritional status.",0,0,0,15
+64,nutr_watch, Nutrition watch,action,"Nutrition watch/monitoring—heightened surveillance for malnutrition risk.",0,0,0,15
+65,fld_watch,Fluid Watch,action,"Fluid balance watch—monitoring for dehydration/overload.",0,0,0,20
+66,toilet,Toilet,action,"Toileting/elimination function; functional/nursing indicator.",0,0,0,23
+67,emot,Emotions,action,"Emotional state indicator (reported or measured).",0,0,0,30
+68,pos_comm,Positive Communication,action,"Engagement in positive/constructive communication with staff/family.",0,0,0,25
+69,entertn,Entertainer,action,"Participation in entertainment/recreation that supports well‑being.",0,0,0,13
+70,smoke,Smooking,action,"Smoking habit or exposure to tobacco.",0,0,0,6
+71,exerc,Exrcise,action,"Physical exercise activity or mobilization.",0,0,0,15
+72,appet,Appetite,slider,"Appetite level; relevant to nutritional assessment.",0,0,0,8
+73,fld_amt,Fluid_Amount,slider,"Recorded fluid intake amount (e.g., mL/day or per session), as defined in the system.",0,0,0,1500
+75,ill,Illness,slider,"Report of illness or abnormal symptoms.",0,0,0,5
+76,mob_asst,MobilityAssistance,slider,"Need for assistance with mobility/ambulation.",0,0,0,8
+77,diet,Diet,slider,"Dietary plan or restriction (e.g., low‑sodium, diabetic).",0,0,0,5
+78,happ,Happiness,slider,"Subjective well‑being/happiness rating.",0,0,0,655
+101,s_fall,small Fall,action,"Minor fall event without significant injury.",0,0
